@@ -560,7 +560,7 @@ namespace CalculatorEXAM {
 		this->is_equal = false;
 	}
 	private: System::Void btn_minus_plus_Click(System::Object^ sender, System::EventArgs^ e) {
-		int num = System::Convert::ToInt32(this->result_label->Text);
+		double num = System::Convert::ToDouble(this->result_label->Text);
 		num *= -1;
 		this->result_label->Text = System::Convert::ToString(num);
 	}
