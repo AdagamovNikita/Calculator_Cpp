@@ -1,0 +1,28 @@
+
+# Windows/Visual Studio
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.suo
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+ipch/
+*.pch
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Скомпилированные файлы
+*.exe
+*.obj
+
+# Временные файлы редакторов
+*.tmp
+*~
+.DS_Store
+Thumbs.db
